@@ -1,0 +1,8 @@
+# The following URL and AccessKey are samples used in various examples
+# in the DeviceHive codebase and they should be modified according to your setup
+URL: http://playground.devicehive.com/api/rest
+AccessKey: 1jwKgLYi/CdfBTI9KByfYxwyQ6HUIEfnGSgakdpFjgk=
+
+DeviceID: dh-example-device
+DeviceName: dh-example-device
+DeviceNotifcationsReceive: REST

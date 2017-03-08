@@ -1,0 +1,6 @@
+*~
+.pioenvs/*
+.sconsign.dblite
+platformio.ini
+dh-arduino-example
+deviceconf.yml

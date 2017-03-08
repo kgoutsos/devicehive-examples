@@ -1,0 +1,9 @@
+URL: http://playground.devicehive.com/api/rest
+AccessKey: 1jwKgLYi/CdfBTI9KByfYxwyQ6HUIEfnGSgakdpFjgk=
+
+DeviceID: sample-device
+DeviceName: sample-device
+DeviceNotifcationsReceive: REST
+
+SendNotificatonQueueCapacity: 2047  # Optional: default value is 2048
+LoggingLevel: verbose               # Optional: can be 'info', 'verbose', 'debug'
