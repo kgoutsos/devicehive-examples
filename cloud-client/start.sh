@@ -1,5 +1,11 @@
 #!/bin/bash
 
+config=$1
+
+if [ -z "$config" ]; then
+    config="-conf=deviceconf.yml"
+fi;
+
 if [ ! -f $GOPATH/bin/devicehive-cloud ]; then
 	echo "devicehive-cloud package not found. Installing it now..."
 	go get github.com/devicehive/IoT-framework/devicehive-cloud
@@ -9,4 +15,4 @@ if [ ! -f $GOPATH/bin/devicehive-cloud ]; then
 fi
 
 cd .
-$GOPATH/bin/devicehive-cloud -conf=deviceconf.yml
+$GOPATH/bin/devicehive-cloud $config
