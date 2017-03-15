@@ -132,8 +132,6 @@ func main() {
 		b := []byte(params)
 		json.Unmarshal(b, &param_data)
 
-		//log.Printf("param_data %s", param_data)
-
 		if h, ok := cloudHandlers[command]; ok {
 			//At this point the client notifies the cloud about the success/failure of the command
 			res, err := h(param_data)
