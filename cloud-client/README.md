@@ -2,8 +2,8 @@
 
 ## How to run
 
-1. Edit the configuration file `cloud/device-conf.yml` to match your setup.
-2. Start the DeviceHive cloud client by running `cloud/start.sh`.
+1. Edit the configuration file [deviceconf.yml](deviceconf.yml) to match your setup.
+2. Start the DeviceHive cloud client by running [start.sh](start.sh).
 
 The script will check for the required Go packages and install them as needed.
 

@@ -4,6 +4,5 @@ A simple example of a device communicating with a DeviceHive server and sending 
 
 ## How to run
 
-1. Edit the configuration file `cloud/device-conf.yml` to match your setup.
-2. Start the DeviceHive cloud client by running `cloud/start.sh`. See cloud/README.md for details and troubleshooting.
-3. Start the device with `go run generic-device.go`
+1. Start the DeviceHive cloud client as described in [cloud-client/README.md](../cloud-client/README.md)
+2. Start the device with `go run generic-device.go`
